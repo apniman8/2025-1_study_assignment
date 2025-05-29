@@ -32,4 +32,9 @@ public class UIManager : MonoBehaviour
         MessageText.text = "";
     }
 
+    //¿”¿«∑Œ
+    public void ShowRestartButton()
+    {
+        RestartButton.SetActive(true);
+    }
 }
